@@ -1,24 +1,26 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from "react";
+import { motion } from "framer-motion";
 //
-import Content from './partials/Content'
-import { fadeLeft, motionStep } from '@config/motion'
+import Content from "./partials/Content";
+import { fadeLeft, motionStep } from "@config/motion";
 
 const Worked = () => {
   return (
-    <section id='experiences' className='container' >
-      
-      <motion.h1 variants={fadeLeft} {...motionStep} className='flex items-center gap-2 text-lg md:text-3xl font-medium text-slate-300' > 
-        <span className='text-sky-400 font-mono' >02. </span>
-        Where I have worked?
+    <section id="experiences" className="container">
+      <motion.h1
+        variants={fadeLeft}
+        {...motionStep}
+        className="flex items-center gap-2 text-lg md:text-3xl font-medium text-slate-300"
+      >
+        <span className="text-sky-400 font-mono">02. </span>
+        Where do I study?
       </motion.h1>
 
-      <div className='mt-14' >
-        <Content /> 
+      <div className="mt-14">
+        <Content />
       </div>
-
     </section>
-  )
-}
+  );
+};
 
-export default Worked
+export default Worked;
