@@ -8,7 +8,7 @@ import { fadeTop, motionStep } from "@config/motion";
 const Left = () => {
   // content
   const content = [
-    "Hasibul Islam who helps small and medium businesses particularly agencies or companies and individuals by providing top-notch, high-quality and reliable website development support",
+    "Abdul Hafizh Kustiawan who helps small and medium businesses particularly agencies or companies and individuals by providing top-notch, high-quality and reliable website development support",
     "So they can focus on what they do best, increase productivity, take on new clients and grow their business. He has partnered with businesses, marketing professionals, agencies, and consultancies from around the world since 2021, becoming his extended development department.",
     "Feel free to articulate your requirements, and I will meticulously analyze and propose a tailored solution. If you find my expertise aligns with your needs, please engage further; otherwise, I appreciate your consideration.",
     "Let's collaborate and turn your ideas into remarkable digital experiences! Here are a few technologies I have been working with recently:",
