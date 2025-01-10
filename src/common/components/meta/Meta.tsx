@@ -4,12 +4,15 @@ const Meta = () => {
   return (
     <>
       {/* Open Graph Tags (for Facebook) */}
-      <meta property="og:site_name" content="Hasibul Islam" />
-      <meta property="og:url" content="https://devhasibulislam.vercel.app/" />
+      <meta property="og:site_name" content="Abdul Hafizh Kustiawan" />
+      <meta
+        property="og:url"
+        content="https://developer-portfolio-master-xi.vercel.app/"
+      />
       <meta property="og:type" content="website" />
       <meta
         property="og:title"
-        content="Hasibul Islam (@devhasibulislam), a full stack web developer"
+        content="Abdul Hafizh Kustiawan (@abdulhafizh_k)  "
       />
       <meta
         property="og:description"
@@ -21,15 +24,10 @@ const Meta = () => {
       />
 
       {/* General Metadata */}
-      <meta name="author" content="Hasibul Islam" />
-      <title>
-        Hasibul Islam (@devhasibulislam), a full stack web developer
-      </title>
+      <meta name="author" content="Abdul Hafizh kustiawan" />
+      <title>Abdul Hafizh Kustiawan (@abdulhafizh_k)</title>
       <meta name="robots" content="index,follow" />
-      <meta
-        title="Hasibul Islam (@devhasibulislam), a full stack web developer"
-        name="title"
-      />
+      <meta title="Abdul Hafizh Kustiawan (@abdulhafizh_k) " name="title" />
 
       {/* Description and Keywords Metadata */}
       <meta
@@ -89,23 +87,29 @@ const Meta = () => {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/apple-touch-icon.png"
+        // href="/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon-32x32.png"
+        // href="/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon-16x16.png"
+        // href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/site.webmanifest" />
-      <link rel="canonical" href="https://devhasibulislam.vercel.app/"></link>
-      <link rel="pingback" href="https://devhasibulislam.vercel.app/"></link>
+      <link
+        rel="canonical"
+        href="https://developer-portfolio-master-xi.vercel.app/"
+      ></link>
+      <link
+        rel="pingback"
+        href="https://developer-portfolio-master-xi.vercel.app/"
+      ></link>
     </>
   );
 };
