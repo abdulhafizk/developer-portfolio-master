@@ -17,7 +17,8 @@ const Projects = () => {
         className="flex items-center gap-2 text-lg md:text-3xl font-medium text-slate-300 mb-12"
       >
         <span className="text-sky-400 font-mono">03. </span>
-        Some Things I’ve Built
+        Some Things I’ve Built{" "}
+        <span style={{ color: "red" }}>(Error - Dalam Perbaikan)</span>
       </motion.h1>
 
       <div className="space-y-20">

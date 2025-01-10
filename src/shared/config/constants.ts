@@ -10,13 +10,13 @@ export const navData = ["About", "Experiences", "Works", "Contact"];
 // project data
 export const projects: ProjectTypes[] = [
   {
-    title: "Travello Booking",
+    title: "Cashier Systems App",
     description:
-      "Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, flight ticket, and more.",
+      "Chasier POS, free cashier app built with nextjs and local storage as database",
     tech: [
-      "Stripe",
-      "Next.Js",
-      "MongoDB",
+      "Daisy Ui",
+      "React JS",
+      "JavaScript",
       "Cloudinary",
       "React Icons",
       "Tailwind CSS",

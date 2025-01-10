@@ -41,7 +41,7 @@ const Left = () => {
 
         <div className="my-5 md:my-8 leading-7 text-slate-400 md:text-lg max-w-3xl">
           <AnimatedTextWord
-            text="is a person who does not know about the purpose of his life, trying a little to find the purpose of life\n#react_developer #frontend_developer #masycodev_developer_owner"
+            text="is a person who does not know about the purpose of his life, trying a little to find the purpose of life \n #react_developer #frontend_developer #masycodev_developer_owner"
             className="text-sm sm:text-lg justify-center lg:justify-start"
           />
         </div>
